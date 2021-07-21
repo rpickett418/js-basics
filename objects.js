@@ -19,11 +19,8 @@
 let me = {
   firstName = 'Rahsaan',
   state = 'Utah',
-  age = '25',
-  greeter = "hello, my name is ${firstName} and I live in ${Utah}",
-}
-
-console.log(me.greeter)
+  age = 25,
+  greeter = 
 
 //////////////////PROBLEM 2////////////////////
 /*

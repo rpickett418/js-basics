@@ -8,10 +8,10 @@
     Create a variable called 'gitDefinition'.
     It should be a string containing your best definition of what Git is.
 */
-var gitDefinition = ' A place for file sharing and colaborative work.'
-console.log(gitDefinition)
-//CODE HERE
 
+//CODE HERE
+var gitDefinition = 'Git is a version control system.'
+console.log(gitDefinition)
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
@@ -19,7 +19,8 @@ console.log(gitDefinition)
 */
 
 //CODE HERE
-
+ var gitHubDefinition = 'Github is a website that host repositories.'
+ console.log(gitHubDefinition)
 //////////////////PROBLEMS 3 - 8////////////////////
 /*
     For the next several problems you will be creating objects containing information about different git 
@@ -35,7 +36,11 @@ console.log(gitDefinition)
 */
 
 //CODE HERE
-
+ const init = {
+     description: 'directly initialize a local repository in a given folder.',
+     code: 'git init',
+}
+ console.log(init)
 //////////////////PROBLEM 4////////////////////
 /*
     Create an object called 'clone' with 'description' and 'code' properties 
@@ -43,7 +48,11 @@ console.log(gitDefinition)
 */
 
 //CODE HERE
-
+ let clone = {
+    description:'copy a repository from github to a computer/machine.',
+    code:'git clone REPO_URL',
+}
+console.log(clone)
 //////////////////PROBLEM 5////////////////////
 /*
     Create an object called 'status' with 'description' and 'code' properties 
@@ -51,7 +60,11 @@ console.log(gitDefinition)
 */
 
 //CODE HERE
-
+let status = {
+    description:'this command gives you information on you repository.',
+    code:'git status',
+}
+console.log(status)
 //////////////////PROBLEM 6////////////////////
 /*
     Create an object called 'add' with 'description' and 'code' properties 
@@ -59,7 +72,11 @@ console.log(gitDefinition)
 */
 
 //CODE HERE
-
+ const add = {
+     description: 'add files to be tracked',
+     code:'git add',
+ }
+ console.log(add)
 //////////////////PROBLEM 7////////////////////
 /*
     Create an object called 'commit' with 'description' and 'code' properties
@@ -67,8 +84,11 @@ console.log(gitDefinition)
 */
 
 //CODE HERE
-
-
+const commit = {
+    description: 'creates snapshot of files being tracked from the git add',
+    code:' git commit'
+}
+console.log(commit)
 //////////////////PROBLEM 8////////////////////
 /*
     Create an object called 'push' with 'description' and 'code' properties 
@@ -76,3 +96,8 @@ console.log(gitDefinition)
 */
 
 //CODE HERE
+const push = {
+    description:'put local commit to Github',
+    code:'git push `repo-name`',
+}
+console.log(push)

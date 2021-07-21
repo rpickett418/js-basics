@@ -7,10 +7,11 @@
 
 //CODE HERE
 
-function sum(num1, num2){
-  return num1 + num2
+function sum (num1, num2){
+console.log(num1 + num2)
 }
-console.log(sum)
+
+sum(1, 2)
 //////////////////PROBLEM 2////////////////////
 /*
   Create a function called 'greaterThanFive' that takes in a single parameter called 'number'. 
@@ -20,10 +21,15 @@ console.log(sum)
 */
 
 //CODE HERE
-function greaterThanFive(number){
- if (number > 5){
-    (number = true); 
-   return (number = false);
+function greaterThanFive(number) {
+  if (number > 5){
+    console.log(number === true);
+  } else {
+    console.log(number === false); 
+    }
+}
+
+console.log(true)
 
 //////////////////PROBLEM 3////////////////////
 /*
@@ -34,18 +40,22 @@ function greaterThanFive(number){
 */
 
 //CODE HERE
-function findZWords(word){
-  if (findZWords === z)
-  return 'the name begins with Z'
-} else {
-  return 'the name does not begin with Z'
+function findZwords(word) {
+  if (word === 'Z'){
+    console.log('the name begins with the letter "Z')
+  } else { 
+    console.log('the name does not begin with Z')
+  }
 }
+
+console.log(findZwords)
 //////////////////PROBLEM 4////////////////////
 /*
   Create a function called 'iLove' that takes in two string parameters, 'name' and 'love'. 
   Have the function take the two parameters and return a string that says 
   "NAMEPARAM loves LOVEPARAM" with the appropriate parameters in the string. e.g. "Joseph loves music"
 */
+ 
+// //CODE HERE
 function iLove(name, love)
-return ${name} ${love} 'music' 
-//CODE HERE
+return ${NAMEPARAM} ${LOVEPARAM} 'music' 
