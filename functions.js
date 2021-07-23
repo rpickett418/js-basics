@@ -41,14 +41,15 @@ console.log(true)
 
 //CODE HERE
 function findZwords(word) {
-  if (word === 'Z'){
+  if (word[0] === 'Z'){
     console.log('the name begins with the letter "Z')
   } else { 
     console.log('the name does not begin with Z')
   }
 }
 
-console.log(findZwords)
+// console.log(findZwords('fan'))
+findZwords('Zebra')
 //////////////////PROBLEM 4////////////////////
 /*
   Create a function called 'iLove' that takes in two string parameters, 'name' and 'love'. 
@@ -57,5 +58,8 @@ console.log(findZwords)
 */
  
 // //CODE HERE
-function iLove(name, love)
-return ${NAMEPARAM} ${LOVEPARAM} 'music' 
+function iLove(name, love){
+  return `${name} loves ${love}`
+}
+iLove('rah', 'music')
+console.log(iLove('rah', 'music') )
